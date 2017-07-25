@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Galactic battles" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Galactic battles" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Galactic battles" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="winmm" />
+		</Linker>
+		<Unit filename="bossb.cpp" />
+		<Unit filename="bossb.h" />
+		<Unit filename="bossc.cpp" />
+		<Unit filename="bossc.h" />
+		<Unit filename="bosslvl.cpp" />
+		<Unit filename="bosslvl.h" />
+		<Unit filename="challenge.cpp" />
+		<Unit filename="challenge.h" />
+		<Unit filename="credits.cpp" />
+		<Unit filename="credits.h" />
+		<Unit filename="instr3.cpp" />
+		<Unit filename="instr3.h" />
+		<Unit filename="instra.cpp" />
+		<Unit filename="instra.h" />
+		<Unit filename="instruct.cpp" />
+		<Unit filename="instruct.h" />
+		<Unit filename="levels.cpp" />
+		<Unit filename="levels.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="map.h" />
+		<Unit filename="map2.cpp" />
+		<Unit filename="map2.h" />
+		<Unit filename="map3.cpp" />
+		<Unit filename="map3.h" />
+		<Unit filename="map4.cpp" />
+		<Unit filename="map4.h" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="multiplayer.cpp" />
+		<Unit filename="multiplayer.h" />
+		<Unit filename="records.cpp" />
+		<Unit filename="records.h" />
+		<Unit filename="shields.cpp" />
+		<Unit filename="shields.h" />
+		<Unit filename="ship.cpp" />
+		<Unit filename="ship.h" />
+		<Unit filename="shop.cpp" />
+		<Unit filename="shop.h" />
+		<Unit filename="weapons.cpp" />
+		<Unit filename="weapons.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

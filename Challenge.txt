@@ -1,0 +1,93 @@
+if(time==0)
+{
+    ifstream filea;
+    filea.open("MCF");
+        string line;
+        if(filea.good())
+        {
+            getline(filea,line);
+            wo.i=atoi(line.c_str());
+            wo.i=wo.i+30;
+        }
+
+    ofstream file1;
+    file1.open("MCF");
+    file1<<wo.i;
+    file1.close();
+    ofstream filef2;
+    file1.open("records");
+
+    PlaySound(TEXT("jingle-lose-00.wav"),NULL,SND_ASYNC);
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),14);
+    cls();
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n                        YOU HAVE COMPLETED THE CHALLENGE  !!!\n\n";
+    Sleep(4500);cout<<"                            SCORE:"<<points<<"  NAME: ";
+    cin>>name;
+    file1<<name<<" - "<<points;file1.close();
+    cls1();
+    PlaySound(TEXT("Star Wars-Jedi Temple March.wav"),NULL,SND_ASYNC|SND_LOOP);
+    levelsa();
+}
+
+
+
+
+
+if(timemm>=3)
+            {
+                ifstream filea;
+                filea.open("MCF");
+                string line;
+                if(filea.good())
+                {
+                    getline(filea,line);
+                    wo.i=atoi(line.c_str());
+                    wo.i=wo.i+points*6;
+                }
+                ofstream file1;
+                file1.open("MCF");
+                file1<<wo.i;
+                file1.close();
+                PlaySound(TEXT("jingle-lose-00.wav"),NULL,SND_ASYNC);
+                SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),14);
+                cls();
+                cout<<"\n\n\n\n\n\n\n\n\n\n\n                           AWESOME !!! YOUR SCORE IS "<<points*6<<" \n\n                         ";
+                Sleep(4500);system("pause");
+                deadch();
+            }
+
+
+
+if(timemm==2)
+            {
+                ifstream filea;
+                filea.open("MCF");
+                string line;
+                if(filea.good())
+                {
+                    getline(filea,line);
+                    wo.i=atoi(line.c_str());
+                    wo.i=wo.i+points*4;
+                }
+
+            ofstream file1;
+            file1.open("MCF");
+            file1<<wo.i;
+            file1.close();
+            ofstream filef2;
+            filef2.open("records");
+            PlaySound(TEXT("jingle-lose-00.wav"),NULL,SND_ASYNC);
+            SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),14);
+            cls();
+            cout<<"\n\n\n\n\n\n\n\n\n\n\n                  ===== YOU HAVE COMPLETED THE CHALLENGE =====\n\n";
+            Sleep(4500);cout<<"                            SCORE:"<<points*4<<"  NAME: ";
+            cin>>name;
+            filef2<<name<<" - "<<points*4;filef2.close();
+            cls();
+            deadch();
+            }
+
+
+
+keybd_event(VK_SPACE,0x20,KEYEVENTF_EXTENDEDKEY|0,0);
+            keybd_event(VK_SPACE,0x20,KEYEVENTF_EXTENDEDKEY|KEYEVENTF_KEYUP,0);

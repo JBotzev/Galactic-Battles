@@ -1,0 +1,307 @@
+# depslib dependency file v1.0
+1453051258 source:d:\jani\c++\galactic battles\main.cpp
+	<iostream>
+	"map.h"
+	"ship.h"
+	"menu.h"
+	"Windows.h"
+
+1459336488 d:\jani\c++\galactic battles\map.h
+
+1460987408 source:d:\jani\c++\galactic battles\map.cpp
+	<iostream>
+	"ctime"
+	"string.h"
+	"windows.h"
+	"fstream"
+	"map.h"
+	"menu.h"
+	"levels.h"
+	"shop.h"
+	"ship.h"
+	"weapons.h"
+	"shields.h"
+
+1445676754 d:\jani\c++\galactic battles\bullets.h
+
+1459763659 d:\jani\c++\galactic battles\ship.h
+
+1446142672 source:d:\jani\c++\galactic battles\ship.cpp
+
+1460741928 source:d:\jani\c++\galactic battles\menu.cpp
+	"menu.h"
+	"ship.h"
+	"string.h"
+	<iostream>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	"levels.h"
+	"instruct.h"
+	"instra.h"
+	"records.h"
+	"credits.h"
+	"shop.h"
+
+1452453844 d:\jani\c++\galactic battles\menu.h
+
+1446387519 d:\jani\c++\galactic battles\levels.h
+
+1460987718 source:d:\jani\c++\galactic battles\levels.cpp
+	"levels.h"
+	"menu.h"
+	"ship.h"
+	"string.h"
+	<iostream>
+	"windows.h"
+	"fstream"
+	"challenge.h"
+
+1446398226 source:d:\jani\c++\galactic battles\pause.cpp
+	"pause.h"
+
+1446397578 d:\jani\c++\galactic battles\pause.h
+
+1446545113 d:\jani\c++\galactic battles\instruct.h
+
+1460393659 source:d:\jani\c++\galactic battles\instruct.cpp
+	"instruct.h"
+	"instr3.h"
+	"menu.h"
+	"ship.h"
+	"string.h"
+	<iostream>
+	<windows.h>
+	<string>
+	<cstdlib>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<ctime>
+	"instra.h"
+
+1460393878 source:d:\jani\c++\galactic battles\instra.cpp
+	"instra.h"
+	"instruct.h"
+	"menu.h"
+	"ship.h"
+	"string.h"
+	<iostream>
+	<windows.h>
+	<string>
+	<cstdlib>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<ctime>
+	"menu.h"
+
+1446545482 d:\jani\c++\galactic battles\instra.h
+
+1450805647 source:d:\jani\c++\galactic battles\achievements.cpp
+	"achievements.h"
+
+1450805647 d:\jani\c++\galactic battles\achievements.h
+
+1460468780 d:\jani\c++\galactic battles\records.h
+
+1460468795 source:d:\jani\c++\galactic battles\records.cpp
+	"records.h"
+	"menu.h"
+	"map.h"
+	"windows.h"
+	<iostream>
+	"fstream"
+	"challenge.h"
+
+1451317149 d:\jani\c++\galactic battles\credits.h
+
+1451317687 source:d:\jani\c++\galactic battles\credits.cpp
+	"credits.h"
+	"menu.h"
+	"iostream"
+	"windows.h"
+
+1451554233 d:\jani\c++\galactic battles\shop.h
+
+1452154386 source:d:\jani\c++\galactic battles\shop.cpp
+	"shop.h"
+	"menu.h"
+	"string.h"
+	<iostream>
+	"windows.h"
+	"weapons.h"
+	"shields.h"
+	"map.h"
+	"fstream"
+
+1451728167 d:\jani\c++\galactic battles\weapons.h
+
+1460028119 source:d:\jani\c++\galactic battles\weapons.cpp
+	"weapons.h"
+	"shop.h"
+	<iostream>
+	"windows.h"
+	"string.h"
+	"fstream"
+	"map.h"
+
+1451474982 d:\jani\c++\galactic battles\shields.h
+
+1452154371 source:d:\jani\c++\galactic battles\shields.cpp
+	"shields.h"
+	"shop.h"
+	<iostream>
+	"windows.h"
+	"fstream"
+	"weapons.h"
+
+1460788028 source:d:\jani\c++\galactic battles\bosslvl.cpp
+	<iostream>
+	"ctime"
+	"string.h"
+	"windows.h"
+	"fstream"
+	"map.h"
+	"menu.h"
+	"levels.h"
+	"shop.h"
+	"ship.h"
+	"weapons.h"
+	"shields.h"
+
+1451735183 d:\jani\c++\galactic battles\bosslvl.h
+
+1460788028 source:d:\jani\c++\galactic battles\challenge.cpp
+	<iostream>
+	"ctime"
+	"string.h"
+	"windows.h"
+	"fstream"
+	"menu.h"
+	"levels.h"
+	"shop.h"
+	"ship.h"
+	"weapons.h"
+	"shields.h"
+	"challenge.h"
+	"records.h"
+
+1453045210 d:\jani\c++\galactic battles\challenge.h
+
+1460987408 source:d:\jani\c++\galactic battles\map2.cpp
+	"map2.h"
+	<iostream>
+	"ctime"
+	"string.h"
+	"windows.h"
+	"fstream"
+	"menu.h"
+	"levels.h"
+	"shop.h"
+	"ship.h"
+	"weapons.h"
+	"shields.h"
+
+1458410901 d:\jani\c++\galactic battles\map2.h
+
+1460788028 source:d:\jani\c++\galactic battles\map3.cpp
+	"map3.h"
+	<iostream>
+	"ctime"
+	"string.h"
+	"windows.h"
+	"fstream"
+	"menu.h"
+	"levels.h"
+	"shop.h"
+	"ship.h"
+	"weapons.h"
+	"shields.h"
+
+1458477781 d:\jani\c++\galactic battles\map3.h
+
+1458669007 source:d:\jani\c++\galactic battles\map4.cpp
+	"map4.h"
+	<iostream>
+	"ctime"
+	"string.h"
+	"windows.h"
+	"fstream"
+	"menu.h"
+	"levels.h"
+	"shop.h"
+	"ship.h"
+	"weapons.h"
+	"shields.h"
+
+1458668623 d:\jani\c++\galactic battles\map4.h
+
+1461065236 source:d:\jani\c++\galactic battles\bossb.cpp
+	"bossb.h"
+	<iostream>
+	"ctime"
+	"string.h"
+	"windows.h"
+	"fstream"
+	"map.h"
+	"menu.h"
+	"levels.h"
+	"shop.h"
+	"ship.h"
+	"weapons.h"
+	"shields.h"
+
+1458857323 d:\jani\c++\galactic battles\bossb.h
+
+1460741946 source:d:\jani\c++\galactic battles\multiplayer.cpp
+	<iostream>
+	"ctime"
+	"string.h"
+	"windows.h"
+	"fstream"
+	"multiplayer.h"
+	"menu.h"
+	"levels.h"
+	"shop.h"
+	"ship.h"
+	"weapons.h"
+	"shields.h"
+
+1459752416 d:\jani\c++\galactic battles\multiplayer.h
+
+1460393878 source:d:\jani\c++\galactic battles\instr3.cpp
+	"instr3.h"
+	"instruct.h"
+	"menu.h"
+	"ship.h"
+	"string.h"
+	<iostream>
+	<windows.h>
+	<string>
+	<cstdlib>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<ctime>
+	"instra.h"
+
+1459873452 d:\jani\c++\galactic battles\instr3.h
+
+1460987690 source:d:\jani\c++\galactic battles\bossc.cpp
+	"bossc.h"
+	<iostream>
+	"ctime"
+	"string.h"
+	"windows.h"
+	"fstream"
+	"map.h"
+	"menu.h"
+	"levels.h"
+	"shop.h"
+	"ship.h"
+	"weapons.h"
+	"shields.h"
+
+1460987408 d:\jani\c++\galactic battles\bossc.h
+
